@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Add from "./pages/Add";
 import List from "./pages/List";
-import Orders from "./pages/orders";
+import Orders from "./pages/Orders";
 import { useEffect, useState } from "react";
 import Login from "./components/Login";
 import { ToastContainer} from 'react-toastify';
