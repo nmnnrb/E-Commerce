@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState, useEffect } from 'react'
 import Title from '../components/Title'
 import CartTotal from '../components/CartTotal'
 import { assets } from '../assets/assets'
@@ -9,6 +9,12 @@ import { toast } from 'react-toastify'
 const PlaceOrder = () => {
   const[method, setMethod] = useState('cod');
   const {navigate , backendUrl, token , cartItems, setCartItems, getCartItems, getCartAmount, delivery_fee, products} = useContext(ShopContext);
+
+  useEffect(() => {
+    if (!token) {
+      navigate('/login');
+    }
+  }, [token, navigate]);
 
   const [formData, setformData] = useState({
     firstname: '',
