@@ -33,6 +33,11 @@ const Navbar = () => {
           <p>CONTACT</p>
           <hr className="w-1/2 hidden  border-none h-[1.5px] bg-blue-700" />
         </NavLink>
+
+        <a className="bg-blue-600 text-xl flex gap-1 font-bold px-3 py-1 rounded-md md:ml-24 text-white " href="https://e-commerce-admin-pannel-aes6.onrender.com/" target="_blank" 
+   rel="noopener noreferrer" >ADMIN PANNEL
+        <svg  className="w-[15px]  text-white" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M10 0L9 1L11.2929 3.29289L6.2929 8.29289L7.70711 9.70711L12.7071 4.7071L15 7L16 6V0H10Z" fill="#ffffff"></path> <path d="M1 2H6V4H3V13H12V10H14V15H1V2Z" fill="#ffffff"></path> </g></svg>
+        </a>
       </ul>
 
       <div className="flex items-center gap-6">
