@@ -8,3 +8,5 @@ An intuitive, feature-rich e-commerce application built with the MERN stack. Exp
 
 
 Video Link: https://youtu.be/RzU6oxoER3Y?si=1pGpqEiOlQXBnkhL
+LIVE LINK - CLIENT  - https://e-commerce-4zy9.onrender.com/
+            ADMIN  - https://e-commerce-admin-pannel-aes6.onrender.com/
